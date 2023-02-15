@@ -1,0 +1,30 @@
+﻿Type;Name;Schema;ParentName;ParentType;DataType;IsNullable
+Table;SalesTaxRate;Sales;AdventureWorks2016_EXT;Database;NULL;
+Table;PersonCreditCard;Sales;AdventureWorks2016_EXT;Database;NULL;
+Table;PersonPhone;Person;AdventureWorks2016_EXT;Database;NULL;
+Table;seriespost;dbo;BaseballData;Database;NULL;
+column;ModifiedDate;Sales;SalesTaxRate;TABLE;datetime
+column;Name;Sales;SalesTaxRate;TABLE;Name: nvarchar;0
+column;rowguid;Sales;SalesTaxRate;table;uniqueidentifier;0
+column;SalesTaxRateID;Sales;SalesTaxRate;TABLE;int;0
+column;StateProvinceID;Sales;SalesTaxRate;TABLE;int;0
+column;TaxRate;Sales;SalesTaxRate;TABLE;smallmoney;0
+column;TaxType;Sales;SalesTaxRate;table;tinyint;0
+column;BusinessEntityID;Sales;PersonCreditCard;TABLE;int;0
+column;CreditCardID;Sales;PersonCreditCard;TABLE;int;0
+column;ModifiedDate;Sales;PersonCreditCard;TABLE;datetime;0
+column;BusinessEntityID;Person;PersonPhone;TABLE;int;0
+column;ModifiedDate;Person;PersonPhone;TABLE;datetime;0
+column;PhoneNumber;Person;PersonPhone;TABLE;Phone: nvarchar;0
+column;PhoneNumberTypeID;Person;PersonPhone;TABLE;int;0
+column;yearID;dbo;seriespost;TABLE;int;0
+column;round;dbo;seriespost;TABLE;varchar;0
+column;teamIDwinner;dbo;seriespost;TABLE;varchar;1
+column;lgIDwinner;dbo;seriespost;TABLE;varchar;1
+column;teamIDloser;dbo;seriespost;TABLE;varchar;1
+column;lgIDloser;dbo;seriespost;TABLE;varchar;1
+column;wins;dbo;seriespost;TABLE;int;1
+column;losses;dbo;seriespost;TABLE;int;1
+column;ties;dbo;seriespost;TABLE;int;1
+database;AdventureWorks2016_EXT;;;;;
+database;BaseballData;;;;;
